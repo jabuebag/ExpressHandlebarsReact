@@ -1,0 +1,26 @@
+{
+  "name": "yhouse",
+  "version": "1.0.0",
+  "description": "yhouse api",
+  "author": "Chris Yang <ybagyang@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.11.6",
+    "body-parser": "*",
+    "express": "^4.13.3",
+    "express-handlebars": "^3.0.0",
+    "express-react-engine": "*",
+    "googlemaps": "*",
+    "jsonwebtoken": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "password-hash": "*",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
