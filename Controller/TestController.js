@@ -10,7 +10,13 @@ var router = express.Router();
 
 router.get('/test', function (req, res, next) {
     var element = React.createElement(test, null, null);
-    res.render('index', {layout: 'main', test: ReactDOMServer.renderToString(element), people: ['chris','lucia'], parttest: 'houhou', title: 'titletest'});
+    res.render('index', {
+        layout: 'main',
+        test: ReactDOMServer.renderToString(element),
+        people: ['chris','lucia'],
+        parttest: 'houhou',
+        title: 'titletest'
+    });
 });
 
 // send static files, for testing

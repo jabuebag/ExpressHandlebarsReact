@@ -1,7 +1,7 @@
 {
-  "name": "yhouse",
+  "name": "ExpressHandlebarsReact",
   "version": "1.0.0",
-  "description": "yhouse api",
+  "description": "ExpressHandlebarsReact api",
   "author": "Chris Yang <ybagyang@gmail.com>",
   "main": "server.js",
   "scripts": {
