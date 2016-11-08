@@ -46,4 +46,5 @@ exports.setPathRouter = function (app) {
 exports.setStaticDir = function (app) {
     console.log('Setting express static directory...');
     app.use(express.static(process.cwd() + '/Component'));
+    app.use(express.static(process.cwd() + '/Resource'));
 }
